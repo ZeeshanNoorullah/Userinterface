@@ -1,0 +1,301 @@
+body{
+	padding:0px !important;
+	margin: 0px !important;
+	overflow-x: hidden;
+}
+
+
+
+.section-1{
+	background-image: url("assets/bg-1.jpg");
+	width: 100%;
+	height:auto;
+	background-size: cover;
+}
+
+.center-1{
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  height: auto;
+	  width: 100%;
+	  max-width:100px; 
+}
+
+.headercolor h1{
+	margin-top: 200px;
+	color: #224494;
+	font-weight: 60px;
+	text-align: left;
+}
+
+.pos{
+	margin-top: 100px;
+	background-color:#e6e3e3 ;
+	padding: 25px; 
+}
+
+.pb{
+	padding-bottom: 100px;
+}
+
+.cw h4{
+	color: white;
+	background-color: #4398cc;
+	padding: 20px;
+}
+
+.mybutton{
+	background-color: #4398cc !important;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+
+/*Section 2*/
+
+.ff{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.divider{
+	border: 2px solid #4ba5d3;
+	width: 15%;
+}
+
+.ul li{
+	list-style:none; 
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.ul li::before {
+    content: "\2022";
+    font-family: fontawesome;
+    color: #4ba5d3;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    font-size: 110%;
+    position: absolute;
+    left: 20px;
+}
+
+.ul li a{
+	text-decoration: none;
+	color: #000;
+}
+.ul li a:hover{
+	color: #4ba5d3;
+	font-weight: 1200;
+}
+
+.ul li:hover::before{
+	color: red;
+	font-weight: bold;
+}
+
+.sec2 {
+    position: relative;
+    bottom: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    min-width: 550px;
+    transition: 3s ease;
+}
+
+
+
+/*Section 3*/
+
+.bg-3{
+	background-color: #4ba5d3;
+	min-height: 300px;
+}
+
+.col-lg-4 h3,.col-lg-4 p{
+	color: white;
+	transition: 3s ease;
+}
+
+.sec3btn{
+	background-color: transparent;
+	border: none;
+	color: white;
+}
+
+.sec3btn:hover {
+	color: #000;
+	border-bottom: 1px solid #000;
+	transition: 1s ease;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/* Section 4 */
+
+.sec4p1{
+	position: relative;
+	top: 50px;
+}
+.sec4btn{
+	background-color: #4ba5d3;
+	border: none;
+	color: white;
+	width: 250px;
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+.sec4btn:hover{
+	background-color: #4ba5d3;
+	border: none;
+	color: black;
+	width: 250px;
+	margin-top: 50px;
+	font-size: 20px;
+	cursor: pointer;
+	transition: 1s ease;
+}
+
+/*Section 5*/
+
+.bg-5{
+	background-color: #002c8f;
+	min-height: 300px;
+}
+
+.sec5btn{
+	background-color: #4ba5d3;
+	border: none;
+	color: white;
+	width: 90%;
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.sec5btn:hover{
+	background-color: #4ba5d3;
+	border: none;
+	color: white;
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: sans-serif;
+	border:1px solid #000;
+	cursor: pointer;
+	transition: 1s ease;
+}
+
+.input1{
+	width: 90%;
+}
+
+.align5 h3{
+	margin-top: 20px;
+}
+
+.imgalign{
+	margin-top: 20px;
+}
+
+/* Section 6 */
+
+.bg-6{
+	background-image: url(assets/section6.jpg);
+	min-height: 400px;
+}
+
+.bg-6 h1{
+	padding-top: 150px;
+	font-size: 250%;
+	font-weight: bold;
+}
+
+/* Section 7 */
+
+.bg-7{
+	background-color: #4ba5d3;
+	min-height: 550px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.sec7 p:nth-child(1){
+	font-size: 30px;
+	margin-top: 100px;
+}
+
+.sec7 p:nth-child(2),p:nth-child(3){
+	font-weight: bold;
+}
+
+.sec7 p:nth-child(4){
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.form2{
+	background-color: #083292;
+	border-radius: 20px;
+	margin-top: 10%;
+	margin-left: 20%;
+	padding: 30px;
+}
+
+.buttonsec8{
+	background-color: #4ba5d3;
+	border: none;
+	color: white;
+}
+
+.input1:focus {
+    outline: none;
+}
+
+/*Section 8*/
+
+.bg-8{
+	background-image: url(assets/bg-footer.jpg);
+	min-height: 400px;
+}
+
+.fg8 p{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.footericons label a{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	padding-left: 20px;
+}
+
+.footericons label a:hover{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	padding-left: 20px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	.sec2{
+		display: none;
+	}
+	.imgalign{
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 425px) {
+		.form2 {
+    background-color: #083292;
+    border-radius: 20px;
+    margin-top: 0%;
+    margin-left: 0%;
+    padding: 30px;
+}
+}
